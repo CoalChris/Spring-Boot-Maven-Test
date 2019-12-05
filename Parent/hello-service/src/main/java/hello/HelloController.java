@@ -9,7 +9,7 @@ public class HelloController {
     
   @RequestMapping("/")
   public String sayHello() {
-    String name = new RestTemplate().getForEntity("http://localhost:8050", String.class).getBody();
+    String name = new RestTemplate().getForEntity("http://35.201.18.18:32223", String.class).getBody();
     return "Hello " + name;
   }
 }

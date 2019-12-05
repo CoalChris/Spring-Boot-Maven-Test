@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-service
-        image: gcr.io/spring-boot-maven-test/hello-service:0.0.1-SNAPSHOT
+        image: gcr.io/spring-boot-maven-test/hello-service:1.4
         ports:
         - name: http
           containerPort: 8051
