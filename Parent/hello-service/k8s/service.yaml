@@ -10,5 +10,6 @@ spec:
   - name: http
     port: 80
     targetPort: 8051
+    nodePort: 31058
   selector:
     app: hello-service
